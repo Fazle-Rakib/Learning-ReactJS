@@ -47,8 +47,8 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  margin: 5px 0px;
-  display: block;
+  margin: 5px 5px;
+  /* display: block; */
 }
 
 .student {
@@ -64,4 +64,14 @@
 
 .student p {
   margin: 5px;
+}
+
+.counter-container{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(197, 131, 131);
+  text-align: center;
+}
+
+.counter-container p{
+  font-size: 40px;
 }

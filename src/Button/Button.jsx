@@ -1,9 +1,10 @@
-
 // ---internal, external & module css ----
 // Click Event
 import styles from "./Button.module.css";
 
-function Button() {
+function Button(props) {
+  const { onClick, buttonInnerText = "Click me!" } = props;
+
   const internalStyles = {
     backgroundColor: "hsl(106, 16%, 53%)",
     color: "white",
@@ -16,9 +17,13 @@ function Button() {
 
   return (
     <>
-      <button style={internalStyles}>Click me!</button>
+      {/* <button style={internalStyles}>Click me!</button>
       <button className={styles.button}>Click me!</button>
-      <button className="button">Click me!</button>
+      <button className="button">Click me!</button> */}
+
+      <button type="button" onClick={onClick} className="button">
+        {buttonInnerText}
+      </button>
     </>
   );
 }
