@@ -1,0 +1,65 @@
+/* Externa CSS */
+.list-category{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(179, 31%, 45%);
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-item li{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(125, 29%, 43%);
+  color: white;
+  margin: 5px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.list-item li:hover{
+  background-color: hsl(126, 29%, 78%);
+  color: rgb(81, 108, 139);
+  cursor: pointer;
+}
+
+.welcome-message{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(179, 31%, 45%);
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.login-prompt{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(234, 42%, 61%);
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* .button{
+  background-color: hsl(179, 31%, 45%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(179, 31%, 45%);
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.student p{
+  margin: 5px;
+} */

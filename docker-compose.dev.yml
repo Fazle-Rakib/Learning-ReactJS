@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  my-react-app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my-react-app-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      # Mount source code for hot reloading
+      - .:/usr/src/app
+      # Exclude node_modules to use container's node_modules
+      - /usr/src/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    command: npm run dev -- --host 0.0.0.0
+    stdin_open: true
+    tty: true
+    networks:
+      - react-dev-network
+
+networks:
+  react-dev-network:
+    driver: bridge
