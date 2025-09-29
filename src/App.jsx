@@ -9,11 +9,12 @@ import List from "./List";
 import ButtonEvent from "./ButtonEvent";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import MyChangeEventComponent from "./MyChangeEventComponent";
 
 function App() {
   return (
     <>
-      <Counter />
+      <MyChangeEventComponent></MyChangeEventComponent>
     </>
   );
 }
