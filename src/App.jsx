@@ -10,11 +10,12 @@ import ButtonEvent from "./ButtonEvent";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import MyChangeEventComponent from "./MyChangeEventComponent";
+import ColorPicker from "./ColorPicker";
 
 function App() {
   return (
     <>
-      <MyChangeEventComponent></MyChangeEventComponent>
+      <ColorPicker />
     </>
   );
 }
