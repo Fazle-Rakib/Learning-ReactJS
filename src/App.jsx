@@ -12,11 +12,12 @@ import Counter from "./Counter";
 import MyChangeEventComponent from "./MyChangeEventComponent";
 import ColorPicker from "./ColorPicker";
 import UpdateObject from "./UpdateObject";
+import UpdateArray from "./UpdateArray";
 
 function App() {
   return (
     <>
-      <UpdateObject />
+      <UpdateArray />
     </>
   );
 }
