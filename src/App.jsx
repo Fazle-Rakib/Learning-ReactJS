@@ -8,14 +8,15 @@ import UserGreeting from "./UserGreeting";
 import List from "./List";
 import ButtonEvent from "./ButtonEvent";
 import MyComponent from "./MyComponent";
-import Counter from "./Counter";
+import Counter from "./Counter"; 
 import MyChangeEventComponent from "./MyChangeEventComponent";
 import ColorPicker from "./ColorPicker";
+import UpdateObject from "./UpdateObject";
 
 function App() {
   return (
     <>
-      <Counter />
+      <UpdateObject />
     </>
   );
 }
